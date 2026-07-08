@@ -181,13 +181,18 @@
           <p>Email me at <a href="mailto:hello@tinadoneit.com.au">hello@tinadoneit.com.au</a> or send a project enquiry below.</p>
           <div class="hero-actions"><a class="btn primary" href="mailto:hello@tinadoneit.com.au?subject=AI%20Automation%20Project%20Enquiry">Email Me</a><a class="btn secondary" href="https://calendly.com/tinadoneit/30min" target="_blank" rel="noopener">Book a Call</a></div>
         </div>
-        <form class="contact-form" name="project-enquiry" method="POST" action="mailto:hello@tinadoneit.com.au" enctype="text/plain">
-          <label>Name<input type="text" name="name" required></label>
-          <label>Email<input type="email" name="email" required></label>
-          <label>Project Type<select name="project_type"><option>AI Automation</option><option>WordPress Website</option><option>Shopify Automation</option><option>SOP / Knowledge Base</option><option>Other</option></select></label>
-          <label>Message<textarea name="message" rows="5" placeholder="Tell me what you want to automate or improve." required></textarea></label>
-          <button class="btn primary" type="submit">Send Enquiry</button>
-          <small>For a production contact form, connect Formspree, Tally, Basin or Cloudflare Workers.</small>
+        <form class="contact-form" id="enquiry-form" name="project-enquiry" method="POST" action="https://formspree.io/f/xqevowyd">
+          <input type="hidden" name="_subject" value="New project enquiry from tinadoneit.com.au">
+          <div data-fs-success class="form-notice form-notice-success" role="status"></div>
+          <div data-fs-error class="form-notice form-notice-error" role="alert"></div>
+          <label>Name<input type="text" name="name" data-fs-field required></label>
+          <span data-fs-error="name" class="field-error"></span>
+          <label>Email<input type="email" name="email" data-fs-field required></label>
+          <span data-fs-error="email" class="field-error"></span>
+          <label>Project Type<select name="project_type" data-fs-field><option>AI Automation</option><option>WordPress Website</option><option>Shopify Automation</option><option>SOP / Knowledge Base</option><option>Other</option></select></label>
+          <label>Message<textarea name="message" rows="5" placeholder="Tell me what you want to automate or improve." data-fs-field required></textarea></label>
+          <span data-fs-error="message" class="field-error"></span>
+          <button class="btn primary" type="submit" data-fs-submit-btn>Send Enquiry</button>
         </form>
       </div>
     </section>
@@ -198,5 +203,12 @@
     <p><a href="mailto:hello@tinadoneit.com.au">hello@tinadoneit.com.au</a></p>
   </footer>
   <script src="assets/script.js"></script>
+
+  <!-- Formspree AJAX: keeps the visitor on-page and shows inline success/error messages instead of redirecting to formspree.io -->
+  <script>
+    window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+    formspree('initForm', { formElement: '#enquiry-form', formId: 'xqevowyd' });
+  </script>
+  <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
 </body>
 </html>
