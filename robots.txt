@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tinadoneit.com.au/sitemap.xml
