@@ -1,221 +1,127 @@
-<!doctype html>
-<html lang="en-AU">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tina Done It | AI Training for Women, Small Business & Non-Profits</title>
-  <meta name="description" content="Tina Done It teaches women, small businesses and non-profits practical AI skills in ChatGPT and Claude, plus builds the websites, automations and systems to put them to work." />
-  <meta name="keywords" content="AI training for women, AI for small business, AI for non-profits, ChatGPT and Claude training, AI automation Australia, AI automation Brisbane, WordPress AI automation, Shopify automation, Cloudflare website" />
-  <meta name="author" content="Faustina Bertha" />
-  <meta property="og:title" content="Tina Done It | AI Training for Women, Small Business & Non-Profits" />
-  <meta property="og:description" content="Practical AI training in ChatGPT and Claude for women, small businesses and non-profits, plus the websites and automations to put it to work." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://tinadoneit.com.au" />
-  <meta name="theme-color" content="#0b0f19" />
-  <!-- Google Search Console verification: replace CONTENT with your verification code -->
-  <meta name="google-site-verification" content="REPLACE_WITH_SEARCH_CONSOLE_CODE" />
-  <!-- Google Analytics GA4: replace G-XXXXXXXXXX with your Measurement ID -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-XXXXXXXXXX');
-  </script>
-  <!-- Load the Inter font actually used by assets/styles.css; without this the site was silently falling back to the browser's default system font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/styles.css" />
-
-  <!-- Favicons / app icons (generated from assets/icon.svg, matches brand gradient) -->
-  <link rel="icon" href="/favicon.ico" sizes="any" />
-  <link rel="icon" type="image/svg+xml" href="/assets/icon.svg" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
-  <link rel="manifest" href="/assets/site.webmanifest" />
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"ProfessionalService",
-    "name":"Tina Done It",
-    "url":"https://tinadoneit.com.au",
-    "email":"hello@tinadoneit.com.au",
-    "areaServed":"Australia",
-    "founder":{"@type":"Person","name":"Faustina Bertha"},
-    "description":"AI training in ChatGPT and Claude for women, small businesses and non-profit organisations, plus the websites, automations, business systems and SOP documentation to put it to work.",
-    "sameAs":[]
-  }
-  </script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tina Done It — AI Education, Automation &amp; Business Systems</title>
+<meta name="description" content="I teach practical, jargon-free AI skills in ChatGPT and Claude, then build the websites, automations, and business systems that put them to work.">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/assets/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@600&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#f0eee9}
+a{color:oklch(50% 0.1 20);text-decoration:none}
+a:hover{color:oklch(40% 0.11 20)}
+</style>
 </head>
 <body>
-  <div class="cursor-glow"></div>
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="Tina Done It Home">
-      <svg class="brand-mark" width="38" height="38" viewBox="0 0 64 64" role="img" aria-hidden="true">
-        <defs>
-          <linearGradient id="brandBg" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stop-color="#d6ff7f"/>
-            <stop offset="100%" stop-color="#8dfcff"/>
-          </linearGradient>
-        </defs>
-        <rect x="1" y="1" width="62" height="62" rx="16" fill="url(#brandBg)"/>
-        <path d="M15 42 L26 24 L38 34 L49 18" fill="none" stroke="#071018" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
-        <circle cx="15" cy="42" r="4.2" fill="url(#brandBg)" stroke="#071018" stroke-width="2.8"/>
-        <circle cx="26" cy="24" r="4.2" fill="url(#brandBg)" stroke="#071018" stroke-width="2.8"/>
-        <circle cx="38" cy="34" r="4.2" fill="url(#brandBg)" stroke="#071018" stroke-width="2.8"/>
-        <circle cx="49" cy="18" r="5.2" fill="#071018"/>
-      </svg>
-      <span>Tina Done It</span>
-    </a>
-    <nav class="nav" aria-label="Main navigation">
-      <a href="#services">Services</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#blog">Blog</a>
-      <a href="free-resources.html">Free Resources</a>
-      <a href="#pricing">Packages</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <button class="theme-toggle" type="button" aria-label="Toggle dark and light mode">☾</button>
-  </header>
+<div style="background:oklch(98% 0.008 80);font-family:Manrope,system-ui,sans-serif;color:oklch(28% 0.02 30)">
 
-  <main id="home">
-    <section class="hero section">
-      <div class="hero-copy reveal">
-        <p class="eyebrow">AI Education • Automation • Business Systems</p>
-        <h1>Teaching women, small businesses & non-profits to thrive with AI.</h1>
-        <p class="hero-text">I teach practical, jargon-free AI skills in ChatGPT and Claude, then build the websites, automations and business systems that put them to work, combining WordPress, Shopify, Cloudflare and real operations experience so you can save time and grow with confidence.</p>
-        <div class="hero-actions">
-          <a class="btn primary" href="#contact">Book a Free 15-Min Call</a>
-          <a class="btn secondary" href="#portfolio">View My Work</a>
-        </div>
-        <div class="proof-strip" aria-label="Experience highlights">
-          <span><strong>20%</strong> monthly occupancy increase</span>
-          <span><strong>Gov</strong> SOP & policy experience</span>
-          <span><strong>Free</strong> resources for non-profits</span>
-        </div>
-      </div>
-      <div class="hero-panel reveal delay-1" aria-label="AI business system workflow visualisation">
-        <div class="panel-top"><span></span><span></span><span></span></div>
-        <div class="workflow-card active"><small>Step 01</small><strong>Client enquiry received</strong><p>Website form captures business needs.</p></div>
-        <div class="connector"></div>
-        <div class="workflow-card"><small>Step 02</small><strong>AI qualifies & organises</strong><p>ChatGPT or Claude drafts reply, tags service and updates tracking.</p></div>
-        <div class="connector"></div>
-        <div class="workflow-card"><small>Step 03</small><strong>Cloudflare-secured website</strong><p>Fast, protected and SEO-ready online presence.</p></div>
-        <div class="connector"></div>
-        <div class="workflow-card"><small>Step 04</small><strong>Proposal & follow-up</strong><p>Clear next steps sent automatically.</p></div>
-      </div>
-    </section>
+<div style="display:flex;align-items:center;justify-content:space-between;padding:22px 60px;border-bottom:1px solid oklch(90% 0.02 60);position:sticky;top:0;background:oklch(98% 0.008 80 / .92);backdrop-filter:blur(6px);z-index:10">
+<div style="display:flex;align-items:center;gap:10px">
+<img src="assets/logo-icon.png" alt="Tina Done It" style="width:36px;height:36px;border-radius:9px;object-fit:cover;display:block">
+<span style="font-family: Poppins; font-weight: 600; font-size: 19px">Tina Done It</span>
+</div>
+<div style="display:flex;align-items:center;gap:30px;font-size:14px;font-weight:500;color:oklch(38% 0.02 30)">
+<a href="#services" style="color:inherit">Services</a><a href="#portfolio" style="color:inherit">Portfolio</a><a href="#blog" style="color:inherit">Blog</a><a href="free-resources.html" style="color:inherit">Free Resources</a><a href="#pricing" style="color:inherit">Packages</a>
+<a href="#contact" style="padding:10px 20px;border-radius:999px;background:oklch(78% 0.09 20);color:oklch(24% 0.03 20);font-weight:600">Contact</a>
+</div>
+</div>
 
-    <section class="logo-cloud section compact reveal" aria-label="Technology stack">
-      <p>Built with modern business tools</p>
-      <div>
-        <span>ChatGPT</span><span>Claude</span><span>OpenAI</span><span>Anthropic</span><span>Cloudflare</span><span>WordPress</span><span>Shopify</span><span>Google Workspace</span><span>Notion</span><span>Canva</span><span>Airtable</span><span>Meta</span>
-      </div>
-    </section>
+<div style="padding:88px 60px 72px;text-align:center;background:radial-gradient(ellipse at top, oklch(93% 0.03 300 / .5), transparent 60%)">
+<div style="display:inline-flex;gap:8px;align-items:center;font-size:12.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:oklch(55% 0.1 20);margin-bottom:22px">
+<span style="font-size: 20px">AI Education</span><span>·</span><span style="font-size: 20px">Automation</span><span>·</span><span style="font-size: 20px">Business Systems</span>
+</div>
+<h1 style="font-family:Lora,serif;font-weight:600;font-size:56px;line-height:1.15;margin:0 auto 24px;max-width:820px">Teaching women, small businesses &amp; non-profits to thrive with AI.</h1>
+<p style="font-size:18px;line-height:1.65;color:oklch(42% 0.02 30);max-width:640px;margin:0 auto 38px">I teach practical, jargon-free AI skills in ChatGPT and Claude, then build the websites, automations, and business systems that put them to work<br>so you can save time and grow with confidence.</p>
+<div style="display:flex;gap:14px;justify-content:center;margin-bottom:48px">
+<a href="#contact" style="padding:16px 30px;border-radius:999px;background:oklch(78% 0.09 20);color:oklch(24% 0.03 20);font-weight:700;font-size:15px">Book a Free 15-Min Call</a>
+<a href="#portfolio" style="padding:16px 30px;border-radius:999px;border:1.5px solid oklch(70% 0.04 30);color:oklch(30% 0.02 30);font-weight:700;font-size:15px">View My Work</a>
+</div>
+<div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
+<div style="background:#fff;border:1px solid oklch(90% 0.02 60);border-radius:14px;padding:16px 26px"><div style="font-family:Lora,serif;font-size:23px;font-weight:700;color:oklch(55% 0.1 20)">20%</div><div style="font-size:12.5px;color:oklch(45% 0.02 30)">monthly occupancy increase</div></div>
+<div style="background:#fff;border:1px solid oklch(90% 0.02 60);border-radius:14px;padding:16px 26px"><div style="font-family:Lora,serif;font-size:23px;font-weight:700;color:oklch(55% 0.08 300)">Gov</div><div style="font-size:12.5px;color:oklch(45% 0.02 30)">SOP &amp; policy experience</div></div>
+<div style="background:#fff;border:1px solid oklch(90% 0.02 60);border-radius:14px;padding:16px 26px"><div style="font-family:Lora,serif;font-size:23px;font-weight:700;color:oklch(55% 0.1 20)">Free</div><div style="font-size:12.5px;color:oklch(45% 0.02 30)">resources for non-profits</div></div>
+</div>
+</div>
 
-    <section id="services" class="section">
-      <div class="section-heading reveal">
-        <p class="eyebrow">Services</p>
-        <h2>Practical AI skills and systems for real people and real organisations.</h2>
-        <p>I focus on outcomes: confident AI habits, fewer repetitive tasks, clearer operations and websites that convert, for women in business, small teams and non-profit organisations.</p>
-      </div>
-      <div class="grid cards-3">
-        <article class="card reveal"><span class="icon">❖</span><h3>AI Training for Women & Non-Profits</h3><p>Hands-on ChatGPT and Claude workshops and 1:1 coaching that build real confidence and practical AI habits, tailored for women-led businesses, small teams and non-profit organisations.</p></article>
-        <article class="card reveal"><span class="icon">✦</span><h3>AI Business Automation</h3><p>Automate admin, enquiries, follow-ups, content, documents and reporting using AI-powered workflows designed around your actual process.</p></article>
-        <article class="card reveal delay-1"><span class="icon">◈</span><h3>WordPress Websites + AI</h3><p>Premium WordPress websites with SEO structure, AI content workflows, lead forms, analytics and Cloudflare performance/security setup.</p></article>
-        <article class="card reveal delay-2"><span class="icon">◇</span><h3>Shopify Growth Systems</h3><p>Shopify setup, product content, promotional email workflows, abandoned-cart planning and social content systems for ecommerce brands.</p></article>
-        <article class="card reveal"><span class="icon">⬡</span><h3>Business Process Improvement</h3><p>Review your manual workflows, identify bottlenecks and design clearer systems before automation is built.</p></article>
-        <article class="card reveal delay-1"><span class="icon">▣</span><h3>SOP & Knowledge Bases</h3><p>Create structured SOPs, team guides and AI-ready knowledge bases so staff can work consistently and confidently.</p></article>
-        <article class="card reveal delay-2"><span class="icon">●</span><h3>AI Content Systems</h3><p>Plan and generate blogs, social posts, newsletters, website updates and campaign content with a repeatable AI-assisted process.</p></article>
-      </div>
-    </section>
+<div style="padding:22px 60px;background:oklch(94% 0.03 300 / .4);display:flex;justify-content:center;gap:36px;flex-wrap:wrap;font-size:13px;font-weight:600;color:oklch(45% 0.03 280)">
+<span>ChatGPT</span><span>Claude</span><span>Cloudflare</span><span>WordPress</span><span>Shopify</span><span>Higgsfield</span><span>Canva</span>
+</div>
 
-    <section id="portfolio" class="section alt">
-      <div class="section-heading reveal">
-        <p class="eyebrow">Portfolio</p>
-        <h2>Case studies built from real operations, business and marketing experience.</h2>
-      </div>
-      <div class="case-grid">
-        <article class="case reveal"><div><p class="tag">Property Automation</p><h3>AI Property Management System</h3><p>Managed villa listings across Airbnb, Agoda and Booking.com with guest communication and operational improvements.</p></div><ul><li>20% monthly occupancy increase</li><li>AI guest messaging workflow</li><li>Booking and cleaning coordination</li></ul><a href="projects/property-management.html">View case study →</a></article>
-        <article class="case reveal delay-1"><div><p class="tag">Ecommerce</p><h3>Nectar of Love Growth System</h3><p>Built digital foundations for an apparel business using WordPress, Shopify, email promotions and Instagram content.</p></div><ul><li>Shopify + WordPress setup</li><li>AI product copy workflow</li><li>Email and content system</li></ul><a href="projects/ecommerce.html">View case study →</a></article>
-        <article class="case reveal delay-2"><div><p class="tag">Community Marketing</p><h3>ASMY Mt Gravatt Digital System</h3><p>Managed socials, website updates, content and event promotion for a yoga and meditation community.</p></div><ul><li>Event promotion workflow</li><li>Website updates</li><li>AI social content planning</li></ul><a href="projects/asmy.html">View case study →</a></article>
-        <article class="case reveal"><div><p class="tag">Knowledge Management</p><h3>AI SOP & Knowledge Base</h3><p>Built from government policy, procedure and registry process experience to support consistent team operations.</p></div><ul><li>SOP documentation</li><li>Knowledge article structure</li><li>Process improvement</li></ul><a href="projects/sop-knowledge-base.html">View case study →</a></article>
-      </div>
-    </section>
+<div style="padding:72px 60px;display:flex;gap:24px;justify-content:center;flex-wrap:wrap">
+<div style="text-align:center;max-width:260px"><div style="width:44px;height:44px;border-radius:12px;background:oklch(85% 0.06 20);display:flex;align-items:center;justify-content:center;font-size:18px;margin:0 auto 14px">1</div><div style="font-weight:700;font-size:15px;margin-bottom:6px">Client enquiry received</div><div style="font-size:13.5px;color:oklch(45% 0.02 30)">Website form captures business needs.</div></div>
+<div style="text-align:center;max-width:260px"><div style="width:44px;height:44px;border-radius:12px;background:oklch(85% 0.05 300);display:flex;align-items:center;justify-content:center;font-size:18px;margin:0 auto 14px">2</div><div style="font-weight:700;font-size:15px;margin-bottom:6px">AI qualifies &amp; organises</div><div style="font-size:13.5px;color:oklch(45% 0.02 30)">ChatGPT or Claude drafts reply, tags service and updates tracking.</div></div>
+<div style="text-align:center;max-width:260px"><div style="width:44px;height:44px;border-radius:12px;background:oklch(85% 0.06 20);display:flex;align-items:center;justify-content:center;font-size:18px;margin:0 auto 14px">3</div><div style="font-weight:700;font-size:15px;margin-bottom:6px">Cloudflare-secured website</div><div style="font-size:13.5px;color:oklch(45% 0.02 30)">Fast, protected and SEO-ready online presence.</div></div>
+<div style="text-align:center;max-width:260px"><div style="width:44px;height:44px;border-radius:12px;background:oklch(85% 0.05 300);display:flex;align-items:center;justify-content:center;font-size:18px;margin:0 auto 14px">4</div><div style="font-weight:700;font-size:15px;margin-bottom:6px">Proposal &amp; follow-up</div><div style="font-size:13.5px;color:oklch(45% 0.02 30)">Clear next steps sent automatically.</div></div>
+</div>
 
-    <section class="section split">
-      <div class="reveal">
-        <p class="eyebrow">Why me</p>
-        <h2>I understand the business process before I automate it.</h2>
-        <p>My background spans government operations, executive support, policy and procedure work, customer service, ecommerce, property management and community marketing. That means I do not just connect tools. I help you design systems that make sense for real people and real teams. Today, that means focusing on women in business, small teams and non-profit organisations who want practical AI skills without the jargon.</p>
-      </div>
-      <div class="metrics reveal delay-1">
-        <div><strong>3+</strong><span>digital business areas: web, ecommerce, social</span></div>
-        <div><strong>20%</strong><span>increase in villa occupancy per month</span></div>
-        <div><strong>2</strong><span>languages: English and Bahasa Indonesia</span></div>
-        <div><strong>2</strong><span>Anthropic certifications: Claude 101 and Claude Code 101</span></div>
-      </div>
-    </section>
+<div id="services" style="padding:76px 60px;background:oklch(96% 0.01 80);scroll-margin-top:80px">
+<div style="text-align:center;margin-bottom:44px"><div style="font-size: 30px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: oklch(55% 0.1 20); margin-bottom: 10px">Services</div><h2 style="font-family:Lora,serif;font-weight:600;font-size:32px;margin:0">Practical AI skills and systems for real people.</h2></div>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:1200px;margin:0 auto">
+<div style="background:#fff;border-radius:14px;padding:28px;border:1px solid oklch(90% 0.02 60)"><div style="font-size:22px;color:oklch(55% 0.1 20);margin-bottom:12px">❖</div><div style="font-weight:700;font-size:15.5px;margin-bottom:8px">AI Training for Women &amp; Non-Profits</div><div style="font-size:13.5px;color:oklch(45% 0.02 30);line-height:1.55">Hands-on ChatGPT and Claude workshops and 1:1 coaching tailored for women-led businesses, small teams and non-profit organisations.</div></div>
+<div style="background:#fff;border-radius:14px;padding:28px;border:1px solid oklch(90% 0.02 60)"><div style="font-size:22px;color:oklch(55% 0.08 300);margin-bottom:12px">✦</div><div style="font-weight:700;font-size:15.5px;margin-bottom:8px">AI Business Automation</div><div style="font-size:13.5px;color:oklch(45% 0.02 30);line-height:1.55">Automate admin, enquiries, follow-ups, content and reporting using AI-powered workflows designed around your actual process.</div></div>
+<div style="background:#fff;border-radius:14px;padding:28px;border:1px solid oklch(90% 0.02 60)"><div style="font-size:22px;color:oklch(55% 0.1 20);margin-bottom:12px">◈</div><div style="font-weight:700;font-size:15.5px;margin-bottom:8px">WordPress Websites + AI</div><div style="font-size:13.5px;color:oklch(45% 0.02 30);line-height:1.55">Premium WordPress websites with SEO structure, AI content workflows, lead forms, analytics and Cloudflare performance/security setup.</div></div>
+<div style="background:#fff;border-radius:14px;padding:28px;border:1px solid oklch(90% 0.02 60)"><div style="font-size:22px;color:oklch(55% 0.08 300);margin-bottom:12px">◇</div><div style="font-weight:700;font-size:15.5px;margin-bottom:8px">Shopify Growth Systems</div><div style="font-size:13.5px;color:oklch(45% 0.02 30);line-height:1.55">Shopify setup, product content, promotional email workflows, abandoned-cart planning and social content systems for ecommerce brands.</div></div>
+<div style="background:#fff;border-radius:14px;padding:28px;border:1px solid oklch(90% 0.02 60)"><div style="font-size:22px;color:oklch(55% 0.1 20);margin-bottom:12px">⬡</div><div style="font-weight:700;font-size:15.5px;margin-bottom:8px">Business Process Improvement</div><div style="font-size:13.5px;color:oklch(45% 0.02 30);line-height:1.55">Review your manual workflows, identify bottlenecks and design clearer systems before automation is built.</div></div>
+<div style="background:#fff;border-radius:14px;padding:28px;border:1px solid oklch(90% 0.02 60)"><div style="font-size:22px;color:oklch(55% 0.08 300);margin-bottom:12px">▣</div><div style="font-weight:700;font-size:15.5px;margin-bottom:8px">SOP &amp; Knowledge Bases</div><div style="font-size:13.5px;color:oklch(45% 0.02 30);line-height:1.55">Create structured SOPs, team guides and AI-ready knowledge bases so staff can work consistently and confidently.</div></div>
+</div>
+</div>
 
-    <section id="blog" class="section">
-      <div class="section-heading reveal">
-        <p class="eyebrow">SEO Blog Strategy</p>
-        <h2>Content designed to attract AI automation and website clients.</h2>
-        <p>These starter posts target high-intent searches and can be published as individual blog pages. Looking for free, ready-to-use guides instead? Visit the <a href="free-resources.html">Free Resources</a> page.</p>
-      </div>
-      <div class="blog-grid">
-        <a class="blog-card reveal" href="blog/ai-automation-small-business.html"><span>AI Automation</span><h3>AI Automation for Small Business</h3><p>10 tasks small businesses should stop doing manually.</p></a>
-        <a class="blog-card reveal delay-1" href="blog/chatgpt-business-automation.html"><span>ChatGPT</span><h3>ChatGPT Business Automation</h3><p>How ChatGPT can save business owners hours every week.</p></a>
-        <a class="blog-card reveal delay-2" href="blog/shopify-automation.html"><span>Shopify</span><h3>Shopify Automation Ideas</h3><p>Ways to increase sales, reduce admin and improve customer follow-up.</p></a>
-        <a class="blog-card reveal" href="blog/wordpress-ai-automation.html"><span>WordPress</span><h3>WordPress AI Automation</h3><p>How service websites can generate leads and reduce manual tasks.</p></a>
-      </div>
-    </section>
+<div id="portfolio" style="padding:76px 60px;scroll-margin-top:80px">
+<div style="text-align:center;margin-bottom:44px"><div style="font-size: 30px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: oklch(55% 0.1 20); margin-bottom: 10px">Portfolio</div><h2 style="font-family:Lora,serif;font-weight:600;font-size:32px;margin:0">Case studies built from real operations, business and marketing experience.</h2></div>
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:20px;max-width:1200px;margin:0 auto">
+<div style="border-radius:14px;overflow:hidden;border:1px solid oklch(90% 0.02 60)"><div style="height:120px;background:repeating-linear-gradient(45deg, oklch(90% 0.05 20), oklch(90% 0.05 20) 8px, oklch(94% 0.03 20) 8px, oklch(94% 0.03 20) 16px);display:flex;align-items:center;justify-content:center;font:12px ui-monospace,monospace;color:oklch(45% 0.05 20)">case study photo</div><div style="padding:18px"><div style="font-size:11px;font-weight:700;color:oklch(55% 0.1 20);text-transform:uppercase;margin-bottom:7px">Property Automation</div><div style="font-weight:700;font-size:14.5px;margin-bottom:7px">Property Management System</div><div style="font-size:12.5px;color:oklch(45% 0.02 30);line-height:1.5">Managed villa listings across Airbnb, Agoda and Booking.com with guest communication and 20% monthly occupancy increase.</div><a href="#" style="display:inline-block;margin-top:10px;font-size:12.5px;font-weight:700">View case study →</a></div></div>
+<div style="border-radius:14px;overflow:hidden;border:1px solid oklch(90% 0.02 60)"><div style="height:120px;background:repeating-linear-gradient(45deg, oklch(90% 0.04 300), oklch(90% 0.04 300) 8px, oklch(94% 0.02 300) 8px, oklch(94% 0.02 300) 16px);display:flex;align-items:center;justify-content:center;font:12px ui-monospace,monospace;color:oklch(45% 0.05 300)">case study photo</div><div style="padding:18px"><div style="font-size:11px;font-weight:700;color:oklch(55% 0.08 300);text-transform:uppercase;margin-bottom:7px">Ecommerce</div><div style="font-weight:700;font-size:14.5px;margin-bottom:7px">Nectar of Love<br>E-commerce Platform</div><div style="font-size:12.5px;color:oklch(45% 0.02 30);line-height:1.5">Built digital foundations for an apparel business using WordPress, Shopify, email promotions and Instagram content.</div><a href="#" style="display:inline-block;margin-top:10px;font-size:12.5px;font-weight:700">View case study →</a></div></div>
+<div style="border-radius:14px;overflow:hidden;border:1px solid oklch(90% 0.02 60)"><div style="height:120px;background:repeating-linear-gradient(45deg, oklch(90% 0.05 20), oklch(90% 0.05 20) 8px, oklch(94% 0.03 20) 8px, oklch(94% 0.03 20) 16px);display:flex;align-items:center;justify-content:center;font:12px ui-monospace,monospace;color:oklch(45% 0.05 20)">case study photo</div><div style="padding:18px"><div style="font-size:11px;font-weight:700;color:oklch(55% 0.1 20);text-transform:uppercase;margin-bottom:7px">Community Marketing</div><div style="font-weight:700;font-size:14.5px;margin-bottom:7px">ASMY Mt Gravatt Online Content</div><div style="font-size:12.5px;color:oklch(45% 0.02 30);line-height:1.5">Managed socials, website updates, content and event promotion for a yoga and meditation community.</div><a href="#" style="display:inline-block;margin-top:10px;font-size:12.5px;font-weight:700">View case study →</a></div></div>
+<div style="border-radius:14px;overflow:hidden;border:1px solid oklch(90% 0.02 60)"><div style="height:120px;background:repeating-linear-gradient(45deg, oklch(90% 0.04 300), oklch(90% 0.04 300) 8px, oklch(94% 0.02 300) 8px, oklch(94% 0.02 300) 16px);display:flex;align-items:center;justify-content:center;font:12px ui-monospace,monospace;color:oklch(45% 0.05 300)">case study photo</div><div style="padding:18px"><div style="font-size:11px;font-weight:700;color:oklch(55% 0.08 300);text-transform:uppercase;margin-bottom:7px">Knowledge Management</div><div style="font-weight:700;font-size:14.5px;margin-bottom:7px">Public Service SOP &amp; Knowledge Base</div><div style="font-size:12.5px;color:oklch(45% 0.02 30);line-height:1.5">Built from government policy, procedure and registry process experience to support consistent team operations.</div><a href="#" style="display:inline-block;margin-top:10px;font-size:12.5px;font-weight:700">View case study →</a></div></div>
+</div>
+</div>
 
-    <section id="pricing" class="section alt">
-      <div class="section-heading reveal"><p class="eyebrow">Packages</p><h2>Simple service packages for Upwork and direct clients.</h2></div>
-      <div class="grid cards-3 pricing">
-        <article class="card reveal"><h3>AI Productivity Review</h3><p>Best for businesses unsure where to start.</p><ul><li>60-minute consultation</li><li>Workflow assessment</li><li>AI opportunity report</li><li>Action plan</li></ul><a class="btn secondary pkg-enquire" href="#contact" aria-label="Enquire about AI Productivity Review">Enquire</a></article>
-        <article class="card featured reveal delay-1"><h3>AI Business Setup</h3><p>Best for small teams ready to implement.</p><ul><li>Automation workflow design</li><li>ChatGPT & Claude-based systems</li><li>SOP documentation</li><li>Website or form integration</li></ul><a class="btn primary pkg-enquire" href="#contact" aria-label="Enquire about AI Business Setup">Enquire</a></article>
-        <article class="card reveal delay-2"><h3>Premium Digital System</h3><p>Best for complete website + system builds.</p><ul><li>WordPress/Shopify website</li><li>Cloudflare setup</li><li>SEO and analytics</li><li>AI content and support systems</li></ul><a class="btn secondary pkg-enquire" href="#contact" aria-label="Enquire about Premium Digital System">Enquire</a></article>
-      </div>
-    </section>
+<div style="padding:64px 60px;background:oklch(94% 0.03 300 / .35);display:flex;gap:56px;align-items:center;max-width:1200px;margin:0 auto">
+<div style="flex:1"><h2 style="font-family:Lora,serif;font-weight:600;font-size:29px;margin:0 0 16px">I understand the business process before I automate it.</h2><p style="font-size:15px;line-height:1.7;color:oklch(40% 0.02 30);margin:0">My background spans in the government operations, executive support, policy and procedure work, customer service, ecommerce, property management and community marketing. That means I do not just connect tools, I help you design systems that make sense for real people and real teams.</p></div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;flex:none">
+<div style="background:#fff;border-radius:12px;padding:20px 24px;text-align:center"><div style="font-family:Lora,serif;font-size:25px;font-weight:700;color:oklch(55% 0.1 20)">3+</div><div style="font-size:12px;color:oklch(45% 0.02 30)">digital areas: web, ecommerce, social</div></div>
+<div style="background:#fff;border-radius:12px;padding:20px 24px;text-align:center"><div style="font-family:Lora,serif;font-size:25px;font-weight:700;color:oklch(55% 0.08 300)">20%</div><div style="font-size:12px;color:oklch(45% 0.02 30)">increase in villa occupancy per month</div></div>
+<div style="background:#fff;border-radius:12px;padding:20px 24px;text-align:center"><div style="font-family:Lora,serif;font-size:25px;font-weight:700;color:oklch(55% 0.1 20)">2</div><div style="font-size:12px;color:oklch(45% 0.02 30)">languages: English &amp; Bahasa Indonesia</div></div>
+<div style="background:#fff;border-radius:12px;padding:20px 24px;text-align:center"><div style="font-family:Lora,serif;font-size:25px;font-weight:700;color:oklch(55% 0.08 300)">2</div><div style="font-size:12px;color:oklch(45% 0.02 30)">Anthropic certifications</div></div>
+</div>
+</div>
 
-    <section id="contact" class="section contact">
-      <div class="contact-panel reveal">
-        <div>
-          <p class="eyebrow">Let’s get you started with AI</p>
-          <h2>Ready for practical AI skills and systems that work for you?</h2>
-          <p>Email me at <a href="mailto:hello@tinadoneit.com.au">hello@tinadoneit.com.au</a>, send a project enquiry below, or book a free 15-minute AI consultation.</p>
-          <div class="hero-actions"><a class="btn primary" href="mailto:hello@tinadoneit.com.au?subject=AI%20Automation%20Project%20Enquiry">Email Me</a><a class="btn secondary" href="https://calendly.com/tinadoneit/30min" target="_blank" rel="noopener">Book a Free 15-Min Call</a></div>
-        </div>
-        <form class="contact-form" id="enquiry-form" name="project-enquiry" method="POST" action="https://formspree.io/f/xqevowyd">
-          <input type="hidden" name="_subject" value="New project enquiry from tinadoneit.com.au">
-          <div data-fs-success class="form-notice form-notice-success" role="status"></div>
-          <div data-fs-error class="form-notice form-notice-error" role="alert"></div>
-          <label>Name<input type="text" name="name" data-fs-field required></label>
-          <span data-fs-error="name" class="field-error"></span>
-          <label>Email<input type="email" name="email" data-fs-field required></label>
-          <span data-fs-error="email" class="field-error"></span>
-          <label>Project Type<select name="project_type" data-fs-field><option>AI Automation</option><option>WordPress Website</option><option>Shopify Automation</option><option>SOP / Knowledge Base</option><option>Other</option></select></label>
-          <label>Message<textarea name="message" rows="5" placeholder="Tell me what you want to automate or improve." data-fs-field required></textarea></label>
-          <span data-fs-error="message" class="field-error"></span>
-          <button class="btn primary" type="submit" data-fs-submit-btn>Send Enquiry</button>
-        </form>
-      </div>
-    </section>
-  </main>
+<div id="blog" style="padding:76px 60px;scroll-margin-top:80px">
+<div style="text-align:center;margin-bottom:40px"><div style="font-size: 30px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: oklch(55% 0.1 20); margin-bottom: 10px">Blog</div><h2 style="font-family:Lora,serif;font-weight:600;font-size:32px;margin:0">Content designed to attract AI automation and website clients.</h2></div>
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:18px;max-width:1200px;margin:0 auto">
+<a href="#" style="color:inherit;background:#fff;border:1px solid oklch(90% 0.02 60);border-radius:14px;padding:22px"><div style="font-size:11px;font-weight:700;color:oklch(55% 0.1 20);text-transform:uppercase;margin-bottom:8px">AI Automation</div><div style="font-weight:700;font-size:14px;line-height:1.4">10 tasks small businesses should stop doing manually.</div></a>
+<a href="#" style="color:inherit;background:#fff;border:1px solid oklch(90% 0.02 60);border-radius:14px;padding:22px"><div style="font-size:11px;font-weight:700;color:oklch(55% 0.08 300);text-transform:uppercase;margin-bottom:8px">ChatGPT</div><div style="font-weight:700;font-size:14px;line-height:1.4">How ChatGPT can save business owners hours every week.</div></a>
+<a href="#" style="color:inherit;background:#fff;border:1px solid oklch(90% 0.02 60);border-radius:14px;padding:22px"><div style="font-size:11px;font-weight:700;color:oklch(55% 0.1 20);text-transform:uppercase;margin-bottom:8px">Shopify</div><div style="font-weight:700;font-size:14px;line-height:1.4">Ways to increase sales, reduce admin and improve customer follow-up.</div></a>
+<a href="#" style="color:inherit;background:#fff;border:1px solid oklch(90% 0.02 60);border-radius:14px;padding:22px"><div style="font-size:11px;font-weight:700;color:oklch(55% 0.08 300);text-transform:uppercase;margin-bottom:8px">WordPress</div><div style="font-weight:700;font-size:14px;line-height:1.4">How service websites can generate leads and reduce manual tasks.</div></a>
+</div>
+</div>
 
-  <footer class="footer">
-    <p>© <span id="year"></span> Tina Done It. AI Education • Automation • Business Systems.</p>
-    <p><a href="mailto:hello@tinadoneit.com.au">hello@tinadoneit.com.au</a></p>
-  </footer>
-  <script src="assets/script.js"></script>
+<div id="pricing" style="padding:76px 60px;scroll-margin-top:80px">
+<div style="text-align:center;margin-bottom:44px"><div style="font-size: 30px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: oklch(55% 0.1 20); margin-bottom: 10px">Packages</div><h2 style="font-family:Lora,serif;font-weight:600;font-size:32px;margin:0">Simple service packages for Upwork and direct clients.</h2></div>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:1200px;margin:0 auto">
+<div style="border:1px solid oklch(90% 0.02 60);border-radius:16px;padding:30px"><div style="font-weight:700;font-size:16.5px;margin-bottom:7px">AI Productivity Review</div><div style="font-size:13px;color:oklch(45% 0.02 30);margin-bottom:18px">Best for businesses unsure where to start.</div><div style="font-size:13.5px;color:oklch(40% 0.02 30);line-height:2">60-minute consultation<br>Workflow assessment<br>AI opportunity report<br>Action plan</div><a href="#contact" style="display:inline-block;margin-top:18px;font-weight:700;font-size:13.5px">Enquire →</a></div>
+<div style="border:2px solid oklch(78% 0.09 20);border-radius:16px;padding:30px;background:oklch(97% 0.02 20)"><div style="font-weight:700;font-size:16.5px;margin-bottom:7px">AI Business Setup</div><div style="font-size:13px;color:oklch(45% 0.02 30);margin-bottom:18px">Best for small teams ready to implement.</div><div style="font-size:13.5px;color:oklch(40% 0.02 30);line-height:2">Automation workflow design<br>ChatGPT &amp; Claude-based systems<br>SOP documentation<br>Website or form integration</div><a href="#contact" style="display:inline-block;margin-top:18px;font-weight:700;font-size:13.5px">Enquire →</a></div>
+<div style="border:1px solid oklch(90% 0.02 60);border-radius:16px;padding:30px"><div style="font-weight:700;font-size:16.5px;margin-bottom:7px">Premium Digital System</div><div style="font-size:13px;color:oklch(45% 0.02 30);margin-bottom:18px">Best for complete website + system builds.</div><div style="font-size:13.5px;color:oklch(40% 0.02 30);line-height:2">WordPress/Shopify website<br>Cloudflare setup<br>SEO and analytics<br>AI content and support systems</div><a href="#contact" style="display:inline-block;margin-top:18px;font-weight:700;font-size:13.5px">Enquire →</a></div>
+</div>
+</div>
 
-  <!-- Formspree AJAX: keeps the visitor on-page and shows inline success/error messages instead of redirecting to formspree.io -->
-  <script>
-    window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
-    formspree('initForm', { formElement: '#enquiry-form', formId: 'xqevowyd' });
-  </script>
-  <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+<div id="contact" style="padding:72px 60px;background:oklch(30% 0.03 300);color:oklch(96% 0.01 80);text-align:center;scroll-margin-top:80px">
+<h2 style="font-family:Lora,serif;font-weight:600;font-size:30px;margin:0 0 14px">Ready for practical AI skills and systems that work for you?</h2>
+<p style="font-size:15px;opacity:.85;margin:0 0 28px">Email me at hello@tinadoneit.com.au, send a project enquiry below, or book a free 15-minute AI consultation.</p>
+<div style="display:flex;gap:14px;justify-content:center">
+<a href="mailto:hello@tinadoneit.com.au" style="padding:15px 28px;border-radius:999px;background:oklch(78% 0.09 20);color:oklch(24% 0.03 20);font-weight:700;font-size:14.5px">Email Me</a>
+<a href="https://calendly.com/tinadoneit/30min" style="padding:15px 28px;border-radius:999px;border:1.5px solid oklch(70% 0.03 300);color:#fff;font-weight:700;font-size:14.5px">Book a Free 15-Min Call</a>
+</div>
+</div>
+
+<div style="padding:28px 60px;text-align:center;font-size:12.5px;color:oklch(50% 0.02 30);border-top:1px solid oklch(90% 0.02 60)">© Tina Done It. AI Education • Automation • Business Systems.</div>
+</div>
 </body>
 </html>
